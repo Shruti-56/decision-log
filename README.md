@@ -27,7 +27,28 @@ and explainable business logic.
 - SQLite (can be replaced with PostgreSQL)
 - REST APIs
 
----
 
 ## 📁 Project Structure
+
+app/
+├── main.py # FastAPI entry point and routes
+├── database.py # Database configuration
+├── models.py # SQLAlchemy models
+├── schemas.py # Pydantic request/response schemas
+├── crud.py # Business logic and database operations
+└── init.py
+
+yaml
+Copy code
+
+This structure ensures clear separation of concerns and makes the codebase easy to understand and extend.
+
+---
+
+## ⚙️ Setup & Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<your-username>/decision-log-backend.git
+cd decision-log-backend
 
